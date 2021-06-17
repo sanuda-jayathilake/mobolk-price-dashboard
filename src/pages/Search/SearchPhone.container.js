@@ -121,6 +121,7 @@ class SearchViewContainer extends Component {
   render() {
     // const result = this.handleSearchResult();
     const { modifiedList, productData, isAuthorized, isSearchEmpty } = this.state;
+    console.log("This is the state")
     if (productData.length && isAuthorized) {
       return (
         <Headers>
