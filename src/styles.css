@@ -1,0 +1,59 @@
+.App {
+    font-family: sans-serif;
+    /* text-align: center; */
+  }
+  .mainContainer {
+    display: flex;
+  }
+  .mainNavigationContainer {
+    /* flex: 4; */
+    /* flex: 1; */
+  }
+  .mainInnerContainer {
+    /* flex: 8; */
+    /* position: absolute;
+    left: 150px; */
+    flex: 1;
+  }
+  .Header {
+    position: fixed;
+    box-sizing: border-box;
+    width: 100%;
+    display: flex;
+    justify-content: left;
+    align-items: baseline;
+    padding: 1em;
+    margin-bottom: 2em;
+    background-color: #fff;
+    color: #fff;
+    font-weight: bold;
+    font-size: 30px;
+    z-index: 999999;
+    box-shadow: 0 4px 1px -3px grey;
+  }
+  .logo {
+    flex: 2;
+  }
+  .menu {
+    flex: 10;
+  }
+  .sideNavBar {
+    height: 100%;
+    width: 100px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #b3e5fc;
+    transition: 0.5s ease;
+    overflow-x: hidden;
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .sideNavBar > li {
+    color: white;
+    font-size: 15px;
+  }
+  
